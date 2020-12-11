@@ -17,5 +17,5 @@ Um problema associado ao VCO é o Ruído de Fase, que pode ser definido como um 
 ## Conclusões
 ## Trabalhos futuros
 ## Referências
-ALMEIDA JÚNIOR, Paulo Acés de. PROJETO DE UM AMPLIFICADOR DE BAIXO RUÍDO E DE UM MISTURADOR DE FREQUÊNCIAS PARA UM TRANSCEPTOR ZIGBEE (2.4 GHz). TCC (Graduação) - Curso de Engenharia Eletrônica, Universidade de Brasília, Brasília, 2016. <br />
+GUIMARÃES, Thiago Almeida Nunes. Modelagem de um PLL e Projeto de VCO para Transceptor ZigBee. TCC (Graduação) - Curso de Engenharia Eletrônica, Universidade de Brasília, Brasília, 2015. <br />
 RAZAVI. RF Microelectronics. 2nd. Ed. 2011
