@@ -19,6 +19,7 @@ Inicialmente, foi realizada a implementação do esquemático através do softwa
 <img src=".png" width="600"> <br />
 #### Figura 2 - Esquemático do PLL com componentes comercial. Fonte: Autores, 2020.
 <img src=".png" width="600"> <br />
+O circuito foi exportado do DesignGuide do software ADS, de modo que a frequência do sinal de saída do VCO seja 855 MHz, a frequência do sinal de referência presente na entrada do PFD é de 95 MHz e o divisor de frequência presente na malha de realimentação apresente um valor de N=9. Na Figura 2, é apresentado o esquemático do PLL com valores em componentes ideais, como também, na Figura 3 é visto a substituição desses componentes por blocos reais, uma vez que será necessário realizar uma análise crítica do funcionamento do circuito através dos resultados da fase do VCO, Tensão de controle do VCO e Frequência do sinal de saída do VCO. A seção seguinte apresenta os resultados da simulação de ambos os circuitos implementados.
 ## TestBench
 ## Conclusões
 ## Trabalhos futuros
