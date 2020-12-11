@@ -14,7 +14,7 @@ A função básica do bloco divisor de frequência, presente na realimentação 
 Um problema associado ao VCO é o Ruído de Fase, que pode ser definido como um desvio aleatório da frequência da portadora que se distribui ao redor de uma frequência central (GUIMARÂES, 2015). Assim, os PLLs são responsáveis por amenizar esse tipo de problema. <br />
 
 ## Implementação da tarefa
-Primeiramente, foi realizada a implementação do esquemático através do software Advanced Design System - ADS do PLL (Phase Locked Loop) utilizando componentes ideais e comerciais, como mostrado nas Figuras 2 e 3, respectivamente. 
+Inicialmente, foi realizada a implementação do esquemático através do software Advanced Design System - ADS do PLL (Phase Locked Loop) utilizando componentes ideais e comerciais, como mostrado nas Figuras 2 e 3, respectivamente. 
 #### Figura 2 – Esquemático do PLL com componentes ideais. Fonte: Autores, 2020.
 <img src=".png" width="600"> <br />
 #### Figura 2 - Esquemático do PLL com componentes comercial. Fonte: Autores, 2020.
