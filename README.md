@@ -26,7 +26,7 @@ A primeira parte do testbench é realizada para caracterização do comportament
 <img src="GRAFICOS-IDEAL.png" width="500"> <br />
 #### Figura 5 – Resultados gráficos do PLL com componentes comercial. a)Fase do VCO; b)Tensão de controle do VCO; c)Frequência do VCO. Fonte: Autores, 2020.
 <img src="GRAFICOS-REAL.png" width="500"> <br />
-
+Comparando os resultados visto anteriormente, percebe-se que 
 ## Conclusões
 Neste trabalho foi abordado o projeto e simulação de um PLL, baseando-se no PLL Design Guide do ADS, que no qual, foi elaborado um testbench para a caracterização do PLL utilizando-se componentes comportamentais e componentes reais. O testbench teve como resultado a simulação de fase do VCO, tensão de controle do VCO e frequência do sinal de saída do VCO. Com isso, foi observado que (...). Portanto, esse trabalho foi muito importante para o aprofundamento do projeto e simulação de um PLL, visto que todos os objetivos foram alcançados.
 ## Trabalhos Futuros
