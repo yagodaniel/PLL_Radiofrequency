@@ -22,16 +22,16 @@ Inicialmente, foi realizada a implementação do esquemático através do softwa
 O circuito foi exportado do DesignGuide do software ADS, de modo que a frequência do sinal de saída do VCO seja 855 MHz, a frequência do sinal de referência presente na entrada do PFD é de 95 MHz e o divisor de frequência presente na malha de realimentação apresente um valor de N=9. Na Figura 2, é apresentado o esquemático do PLL com valores em componentes ideais, como também, na Figura 3 é visto a substituição desses componentes por blocos reais, uma vez que será necessário realizar uma análise crítica do funcionamento do circuito através dos resultados da fase do VCO, tensão de controle do VCO e frequência do sinal de saída do VCO. A seção seguinte apresenta os resultados da simulação de ambos os circuitos implementados.
 ## TestBench
 #### Figura 4 – . Fonte: Autores, 2020.
-<img src="CIRCUITO-IDEAL.PNG" width="500"> <br />
+<img src="CIRCUITO-IDEAL.png" width="500"> <br />
 #### Figura 5 – . Fonte: Autores, 2020.
-<img src="GRAFICOS-IDEAL.PNG" width="500"> <br />
+<img src="GRAFICOS-IDEAL.png" width="500"> <br />
 #### Figura 6 – . Fonte: Autores, 2020.
-<img src="CIRCUITO-REAL.PNG" width="500"> <br />
+<img src="CIRCUITO-REAL.png" width="500"> <br />
 #### Figura 7 – . Fonte: Autores, 2020.
-<img src="GRAFICOS-REAL.PNG" width="500"> <br />
+<img src="GRAFICOS-REAL.png" width="500"> <br />
 ## Conclusões
 Neste trabalho foi abordado o projeto e simulação de um PLL, baseando-se no PLL Design Guide do ADS, que no qual, foi elaborado um testbench para a caracterização do PLL utilizando-se componentes comportamentais e componentes reais. O testbench teve como resultado a simulação de fase do VCO, tensão de controle do VCO e frequência do sinal de saída do VCO. Com isso, foi observado que (...). Portanto, esse trabalho foi muito importante para o aprofundamento do projeto e simulação de um PLL, visto que todos os objetivos foram alcançados.
-## Trabalhos futuros
+## Trabalhos Futuros
 ## Referências
 GUIMARÃES, Thiago Almeida Nunes. Modelagem de um PLL e Projeto de VCO para Transceptor ZigBee. TCC (Graduação) - Curso de Engenharia Eletrônica, Universidade de Brasília, Brasília, 2015. <br />
 RAZAVI. RF Microelectronics. 2nd. Ed. 2011
