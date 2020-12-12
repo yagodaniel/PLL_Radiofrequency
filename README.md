@@ -23,9 +23,9 @@ O circuito foi exportado do DesignGuide do software ADS, de modo que a frequênc
 ## TestBench
 A primeira parte do testbench é realizada para caracterização do comportamento do PLL utilizando componentes ideais. Já na segunda parte, esta caracterização comportamental se dá através do mesmo circuito, porém com uso de componentes comerciais. O objetivo principal desta fase da tarefa acontece com finalidade de comparar resultados colhidos em ambas situações com intenção de apurar conclusões comportamentais através da inspeção da fase e frequência do oscilador controlado por tensão – VCO, como também da tensão de controle (Vtune) do VCO após o processo de filtração de erros. Esses comportamentos no domínio do tempo em forma de gráficos podem ser vistos logo mais nas Figuras 4 e 5.
 #### Figura 4 – Resultados gráficos do PLL com componentes ideais. a)Fase do VCO; b)Tensão de controle do VCO; c)Frequência do VCO. Fonte: Autores, 2020.
-<img src="" width="500"> <br />
+<img src="GRAFICOS-IDEAL.png" width="500"> <br />
 #### Figura 5 – Resultados gráficos do PLL com componentes comercial. a)Fase do VCO; b)Tensão de controle do VCO; c)Frequência do VCO. Fonte: Autores, 2020.
-<img src="" width="500"> <br />
+<img src="GRAFICOS-REAL.png" width="500"> <br />
 
 ## Conclusões
 Neste trabalho foi abordado o projeto e simulação de um PLL, baseando-se no PLL Design Guide do ADS, que no qual, foi elaborado um testbench para a caracterização do PLL utilizando-se componentes comportamentais e componentes reais. O testbench teve como resultado a simulação de fase do VCO, tensão de controle do VCO e frequência do sinal de saída do VCO. Com isso, foi observado que (...). Portanto, esse trabalho foi muito importante para o aprofundamento do projeto e simulação de um PLL, visto que todos os objetivos foram alcançados.
