@@ -16,9 +16,9 @@ Um problema associado ao VCO é o Ruído de Fase, que pode ser definido como um 
 ## Implementação da tarefa
 Inicialmente, foi realizada a implementação do esquemático através do software Advanced Design System - ADS do PLL (Phase Locked Loop) utilizando componentes ideais e comerciais, como mostrado nas Figuras 2 e 3, respectivamente. 
 #### Figura 2 – Esquemático do PLL com componentes ideais. Fonte: Autores, 2020.
-<img src="CIRCUITO-IDEAL.png" width="500"> <br />
+<img src="GRAFICOS-IDEAL.png" width="500"> <br />
 #### Figura 3 - Esquemático do PLL com componentes comercial. Fonte: Autores, 2020.
-<img src="CIRCUITO-REAL.png" width="500"> <br />
+<img src="GRAFICOS-REAL.png" width="500"> <br />
 O circuito foi exportado do DesignGuide do software ADS, de modo que a frequência do sinal de saída do VCO seja 855 MHz, a frequência do sinal de referência presente na entrada do PFD é de 95 MHz e o divisor de frequência presente na malha de realimentação apresente um valor de N=9. Na Figura 2, é apresentado o esquemático do PLL com valores em componentes ideais, como também, na Figura 3 é visto a substituição desses componentes por blocos reais, uma vez que será necessário realizar uma análise crítica do funcionamento do circuito através dos resultados da fase do VCO, tensão de controle do VCO e frequência do sinal de saída do VCO. A seção seguinte apresenta os resultados da simulação de ambos os circuitos implementados.
 ## TestBench
 A primeira parte do testbench é realizada para caracterização do comportamento do PLL utilizando componentes ideais. Já na segunda parte, esta caracterização comportamental se dá através do mesmo circuito, porém com uso de componentes comerciais. O objetivo principal desta fase da tarefa acontece com finalidade de comparar resultados colhidos em ambas situações com intenção de apurar conclusões comportamentais através da inspeção da fase e frequência do oscilador controlado por tensão – VCO, como também da tensão de controle (Vtune) do VCO após o processo de filtração de erros. Esses comportamentos no domínio do tempo em forma de gráficos podem ser vistos logo mais nas Figuras 4 e 5.
